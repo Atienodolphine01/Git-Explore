@@ -6,11 +6,13 @@ import {MyservService} from './myserv.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersprofileComponent } from './usersprofile/usersprofile.component';
+import { SearchformComponent } from './searchform/searchform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersprofileComponent,
+    SearchformComponent,
   ],
   imports: [
     BrowserModule,

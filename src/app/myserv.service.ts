@@ -15,7 +15,6 @@ export class MyservService {
   constructor(private http: HttpClient) {}
   
   searchMyUser(searchTerm: string) {
-    console.log('server is now ready')
     interface data {
       login: string;
       avatar_url: string;
