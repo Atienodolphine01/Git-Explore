@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { UsersprofileComponent } from './usersprofile/usersprofile.component';
 import { SearchformComponent } from './searchform/searchform.component';
 import { RepolistComponent } from './repolist/repolist.component';
-import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,8 @@ import { RepoComponent } from './repo/repo.component';
     UsersprofileComponent,
     SearchformComponent,
     RepolistComponent,
-    RepoComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
