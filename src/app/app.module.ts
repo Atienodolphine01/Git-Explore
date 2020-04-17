@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { UsersprofileComponent } from './usersprofile/usersprofile.component';
 import { SearchformComponent } from './searchform/searchform.component';
 import { RepolistComponent } from './repolist/repolist.component';
+import { DatecountPipe } from './datecount.pipe';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { RepolistComponent } from './repolist/repolist.component';
     UsersprofileComponent,
     SearchformComponent,
     RepolistComponent,
+    DatecountPipe,
   ],
   
   imports: [
