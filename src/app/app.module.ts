@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersprofileComponent } from './usersprofile/usersprofile.component';
 import { SearchformComponent } from './searchform/searchform.component';
+import { RepolistComponent } from './repolist/repolist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersprofileComponent,
     SearchformComponent,
+    RepolistComponent,
   ],
   imports: [
     BrowserModule,
