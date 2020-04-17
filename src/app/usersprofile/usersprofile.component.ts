@@ -8,7 +8,11 @@ import {MyservService} from '../myserv.service'
 })
 export class UsersprofileComponent implements OnInit {
 
-  constructor() { }
+  constructor(private myserv: MyservService) { 
+    this.myserv.getusersProfile(). subscribe(profile=>{
+      console.log(profile)
+    })
+  }
 
   ngOnInit() {
   }
