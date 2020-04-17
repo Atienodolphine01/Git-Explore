@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-size: 20px;
+    color: beige;
+}
+.navbar-brand{
+    font-weight: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.nav-item {
+    position: relative;
+    left: 1200px;
+  }
+
+  .navbar {
+    position: sticky;
+    padding: 20px;
+  }
+  #ret{
+      padding-left: 60px;
+  }

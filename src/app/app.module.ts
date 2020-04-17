@@ -11,6 +11,7 @@ import { SearchformComponent } from './searchform/searchform.component';
 import { RepolistComponent } from './repolist/repolist.component';
 import { DatecountPipe } from './datecount.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FofourpageComponent } from './fofourpage/fofourpage.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     RepolistComponent,
     DatecountPipe,
     NavbarComponent,
+    FofourpageComponent,
   ],
   
   imports: [
