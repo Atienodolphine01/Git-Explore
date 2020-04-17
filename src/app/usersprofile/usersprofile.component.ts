@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MyservService} from '../myserv.service'
 
 @Component({
   selector: 'pp-usersprofile',
