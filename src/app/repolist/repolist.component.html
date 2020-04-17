@@ -1,1 +1,24 @@
-<p>repolist works!</p>
+<div class="container-full">
+    <h1 class="text-center" id="gsearch">GitSearch</h1>
+    <h5 class="text-center repo-number " id="repo">{{myRepo.length}} Repositories found</h5>
+    <app-searchform (searchEmmiter)="getRepo($event)"></app-searchform>
+    <div class="container card-columns">
+        <div class="card" *ngFor="let repo of myRepo">
+        <div class="card-header text-center">
+            <h2 id="header">{{repo.name}}</h2>
+        </div>
+        <div class="card-body">
+            <p id="des">{{repo.description}}</p>
+            <p id="d">{{repo.created_at|date|uppercase}} </p>
+            <p id="lang">{{repo.language}}</p>
+        </div>
+        <div class="card-footer ">
+            <p id="watchers" class="text-center">Watchers <span class="data">{{repo.watchers}}</span></p>
+            <p id="forks" class="text-center">Forks <span class="data">{{repo.forks}}</span></p>
+            <p id="branch" class="text-center">Branch <span class="data">{{repo.default_branch}} </span></p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div> 
+</div>
