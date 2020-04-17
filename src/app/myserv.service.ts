@@ -3,6 +3,7 @@ import {HttpClient } from '@angular/common/http';
 import {environment} from '../environments/environment';
 import {Profile} from './profile';
 import {Observable} from 'rxjs';
+import { SearchformComponent } from './searchform/searchform.component';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,7 @@ export class MyservService {
 
   constructor(private http: HttpClient) {}
   
-  searchMyUser(searchTerm: string) {
+  searchForm(searchTerm: string) {
     interface data {
       login: string;
       avatar_url: string;

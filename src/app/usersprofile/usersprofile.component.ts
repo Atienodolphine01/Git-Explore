@@ -15,7 +15,7 @@ export class UsersprofileComponent implements OnInit {
   constructor(private service:MyservService) {}
 
   getSearchedUser(searchTerm) {
-    this.service.searchMyUser(searchTerm).then(
+    this.service.searchForm(searchTerm).then(
       (success) => {
         this.user = this.service.user;
         console.log(this.user);
