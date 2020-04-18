@@ -45,7 +45,7 @@ you can also run tests with ``ng test.``
 
 
 ## License
-> MIT License &copy 2019 AtyenoD 
+> MIT License &copy 2020 AtyenoD 
 
 ## Collaborate
 To collaborate, reach me on [awuordolphine65@gmail.com]()
