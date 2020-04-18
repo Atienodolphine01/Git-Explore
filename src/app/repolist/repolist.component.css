@@ -1,9 +1,15 @@
 .card-header {
-    background-color: #008080;
+    background-color: #3db1d4;
     border: none;
     border-radius:0px;
   }
 .card { 
     border: none;
     border-radius:0px;
+}
+#gsearch{
+    font-size: 60px;
+    color: #3db1d4;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }

@@ -1,6 +1,25 @@
 .center {
-    border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.button {
+    text-align: center;
+    padding-top: 30px;
+}
+.heading {
+    display: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size:50px;
+}
+.login{
+    text-align: center;
+}
+.gsearch {
+    font-size: 60px;
+    color: #3db1d4;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }

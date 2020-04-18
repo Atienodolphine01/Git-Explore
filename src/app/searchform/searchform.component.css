@@ -3,20 +3,20 @@
     padding-bottom:40px;
   }
 #search{
-    border-color:#00FFFF;
+    border-color: #3db1d4;
 }
 input {
-    background-color: #00FFFF;
+    background-color: #3db1d4;
     height: 46px;
     border-radius:100px;
     font-size: 14px;
-    color:#00FFFF;
+    color: #3db1d4;
 }
 .btn{
     border-radius: 0 20px 20px 0;
     height: 46px;
 }
 input::placeholder{
-    color: #00FFFF;
+    color: rgb(3, 100, 124);
   
 }
