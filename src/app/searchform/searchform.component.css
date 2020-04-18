@@ -1,0 +1,22 @@
+.col{
+    padding-top: 40px;
+    padding-bottom:40px;
+  }
+#search{
+    border-color:#00FFFF;
+}
+input {
+    background-color: #00FFFF;
+    height: 46px;
+    border-radius:100px;
+    font-size: 14px;
+    color:#00FFFF;
+}
+.btn{
+    border-radius: 0 20px 20px 0;
+    height: 46px;
+}
+input::placeholder{
+    color: #00FFFF;
+  
+}

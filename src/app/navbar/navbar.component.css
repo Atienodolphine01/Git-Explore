@@ -12,10 +12,10 @@
     left: 1200px;
   }
 
-  .navbar {
+.navbar {
     position: sticky;
     padding: 20px;
-  }
-  #ret{
-      padding-left: 60px;
-  }
+}
+#ret{
+    padding-left: 60px;
+}

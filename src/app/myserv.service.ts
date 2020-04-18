@@ -15,7 +15,7 @@ export class MyservService {
 
   constructor(private http: HttpClient) {}
   
-  searchForm(searchTerm: string) {
+  searchUser(searchTerm: string) {
     interface data {
       login: string;
       avatar_url: string;

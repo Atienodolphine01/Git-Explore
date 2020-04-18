@@ -4,7 +4,7 @@ import {Profile} from '../profile';
 
 
 @Component({
-  selector: 'pp-usersprofile',
+  selector: 'app-usersprofile',
   templateUrl: './usersprofile.component.html',
   styleUrls: ['./usersprofile.component.css']
 })
@@ -12,12 +12,12 @@ export class UsersprofileComponent implements OnInit {
   user: Profile[];
   particlesJS: any;
 
-  constructor(private service:MyservService) {}
+  constructor(private http:MyservService) {}
 
   getSearchedUser(searchTerm) {
-    this.service.searchForm(searchTerm).then(
+    this.http.searchUser(searchTerm).then(
       (success) => {
-        this.user = this.service.user;
+        this.user = this.http.user;
         console.log(this.user);
       },
       (error) => {
