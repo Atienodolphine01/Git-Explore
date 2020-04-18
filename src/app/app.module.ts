@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-import {MyservService} from './myserv.service';
+// import {MyservService} from './myserv.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersprofileComponent } from './usersprofile/usersprofile.component';
