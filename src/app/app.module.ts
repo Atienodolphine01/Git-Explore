@@ -12,6 +12,7 @@ import { RepolistComponent } from './repolist/repolist.component';
 import { DatecountPipe } from './datecount.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FofourpageComponent } from './fofourpage/fofourpage.component';
+import { HighlighterDirective } from './highlighter.directive';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FofourpageComponent } from './fofourpage/fofourpage.component';
     DatecountPipe,
     NavbarComponent,
     FofourpageComponent,
+    HighlighterDirective,
   ],
   
   imports: [
