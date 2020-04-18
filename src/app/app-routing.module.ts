@@ -8,7 +8,7 @@ import { FofourpageComponent } from './fofourpage/fofourpage.component';
 const routes: Routes = [
   {path: 'usersprofile', component: UsersprofileComponent},
   {path: 'repolist', component: RepolistComponent},
-  {path: '', redirectTo: '/usersprofile', pathMatch: 'Prefix'},
+  {path: '', redirectTo: 'usersprofile', pathMatch: 'full'},
   {path: '**', component: FofourpageComponent},
 ];
 
