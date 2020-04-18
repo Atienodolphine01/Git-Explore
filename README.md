@@ -34,7 +34,7 @@ you can also run tests with ``ng test.``
 ## BDD(Behaviour Driven Development)
 | Inputs |  Description |
 | :---         |          ---: |
-| Username  | Github username, ``eg Atienodolphine``|
+| Username  | Github username, ``eg Atienodolphine01``|
 
 
 | Outputs |  Description |
