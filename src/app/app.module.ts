@@ -13,6 +13,7 @@ import { DatecountPipe } from './datecount.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FofourpageComponent } from './fofourpage/fofourpage.component';
 import { HighlighterDirective } from './highlighter.directive';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HighlighterDirective } from './highlighter.directive';
     NavbarComponent,
     FofourpageComponent,
     HighlighterDirective,
+    FooterComponent,
   ],
   
   imports: [
